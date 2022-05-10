@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+    back_end:
+        image: 62070040/backend
+        ports:
+            - 5000:5000
+        environment:
+            - CONNECTION_URL=mongodb+srv://root:root62070040@chanakan040.krxen.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
